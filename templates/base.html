@@ -1,4 +1,4 @@
-{ % load static %}
+{% load static %}
 
 <!doctype html>
 <html lang="en">
@@ -28,7 +28,7 @@
 
     {% block extra_js %}
     {% endblock %}
-    <title> Book Club {% block extra_title% }{ % endblock %}</title>
+    <title> Book Club {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
     <header class="container-fluid fixed-top"></header>
