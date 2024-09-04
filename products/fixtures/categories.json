@@ -1,0 +1,265 @@
+[{
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "medical",
+            "friendly_name": "Medical"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "science-geography",
+            "friendly_name": "Science & Geography"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "art-photography",
+            "friendly_name": "Art & Photography"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "biography",
+            "friendly_name": "Biography"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "business-finance-law",
+            "friendly_name": "Business, Finance & Law"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.category",
+        "fields": {
+            "name": "childrens-books",
+            "friendly_name": "Children's Books"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.category",
+        "fields": {
+            "name": "computing",
+            "friendly_name": "Computing "
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.category",
+        "fields": {
+            "name": "crafts-hobbies",
+            "friendly_name": "Crafts & Hobbies"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.category",
+        "fields": {
+            "name": "crime-thriller",
+            "friendly_name": "Crime & Thriller"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.category",
+        "fields": {
+            "name": "dictionaries-languages",
+            "friendly_name": "Dictionaries & Languages"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.category",
+        "fields": {
+            "name": "entertainment",
+            "friendly_name": "Entertainment"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.category",
+        "fields": {
+            "name": "food-drink",
+            "friendly_name": "Food & Drink"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.category",
+        "fields": {
+            "name": "graphic-novels-anime-manga",
+            "friendly_name": "Graphic Novels, Anime & Manga"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.category",
+        "fields": {
+            "name": "health",
+            "friendly_name": "Health"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.category",
+        "fields": {
+            "name": "history-archaeology",
+            "friendly_name": "History & Archaeology"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.category",
+        "fields": {
+            "name": "home-garden",
+            "friendly_name": "Home & Garden"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.category",
+        "fields": {
+            "name": "humour",
+            "friendly_name": "Humour"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.category",
+        "fields": {
+            "name": "mind-body-spirit",
+            "friendly_name": "Mind, Body & Spirit"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.category",
+        "fields": {
+            "name": "natural-history",
+            "friendly_name": "Natural History"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.category",
+        "fields": {
+            "name": "personal-development",
+            "friendly_name": "Personal Development"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.category",
+        "fields": {
+            "name": "poetry-drama",
+            "friendly_name": "Poetry & Drama"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.category",
+        "fields": {
+            "name": "reference",
+            "friendly_name": "Reference"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.category",
+        "fields": {
+            "name": "religion",
+            "friendly_name": "Religion"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.category",
+        "fields": {
+            "name": "romance",
+            "friendly_name": "Romance"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.category",
+        "fields": {
+            "name": "science-fiction-fantasy-horror",
+            "friendly_name": "Science Fiction, Fantasy & Horror"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.category",
+        "fields": {
+            "name": "society-social-sciences",
+            "friendly_name": "Society & Social Sciences"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.category",
+        "fields": {
+            "name": "sport",
+            "friendly_name": "Sport"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.category",
+        "fields": {
+            "name": "stationery",
+            "friendly_name": "Technology"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.category",
+        "fields": {
+            "name": "teaching-resources-education",
+            "friendly_name": "Teaching Resources & Education"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "products.category",
+        "fields": {
+            "name": "technology-engineering",
+            "friendly_name": "Technology & Engineering"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "products.category",
+        "fields": {
+            "name": "teen-young-adult",
+            "friendly_name": "Teen and Young Adult"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "products.category",
+        "fields": {
+            "name": "transport",
+            "friendly_name": "Transport"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "products.category",
+        "fields": {
+            "name": "travel-holiday-guides",
+            "friendly_name": "Travel & Holiday Guides"
+        }
+    }
+]
