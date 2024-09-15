@@ -14,24 +14,50 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="new-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                New Arrivals
+                Non-Fiction
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="new-link">
-                <a href="" class="dropdown-item">Romance</a>
-                <a href="" class="dropdown-item">Crime</a>
-                <a href="" class="dropdown-item">Period</a>
-                <a href="" class="dropdown-item">All New Arrivals</a>
+                <a href="{% url 'products' %}?category=art-photography" class="dropdown-item">Art & Photography</a>
+                <a href="{% url 'products' %}?category=biography" class="dropdown-item">Biography</a>
+                <a href="{% url 'products' %}?category=business-finance-law" class="dropdown-item">Business, Finance & Law</a>
+                <a href="{% url 'products' %}?category=computing" class="dropdown-item">Computing</a>
+                <a href="{% url 'products' %}?category=crafts-hobbies" class="dropdown-item">Crafts & Hobbies</a>
+                <a href="{% url 'products' %}?category=dictionaries-languages" class="dropdown-item">Dictionaries & Languages</a>
+                <a href="{% url 'products' %}?category=entertainment" class="dropdown-item">Entertainment</a>
+                <a href="{% url 'products' %}?category=food-drink" class="dropdown-item">Food & Drink</a>
+                <a href="{% url 'products' %}?category=health" class="dropdown-item">Health</a>
+                <a href="{% url 'products' %}?category=history-archaeology" class="dropdown-item">History & Archaeology</a>
+                <a href="{% url 'products' %}?category=home-garden" class="dropdown-item">Home & Garden</a>
+                <a href="{% url 'products' %}?category=humour" class="dropdown-item">Humour</a>
+                <a href="{% url 'products' %}?category=medical" class="dropdown-item">Medical</a>
+                <a href="{% url 'products' %}?category=mind-body-spirit" class="dropdown-item">Mind, Body & Spirit</a>
+                <a href="{% url 'products' %}?category=natural-history" class="dropdown-item">Natural History</a>
+                <a href="{% url 'products' %}?category=personal-development" class="dropdown-item">Personal Developement</a>
+                <a href="{% url 'products' %}?category=reference" class="dropdown-item">Reference</a>
+                <a href="{% url 'products' %}?category=religion" class="dropdown-item">Religion</a>
+                <a href="{% url 'products' %}?category=science-geography" class="dropdown-item">Science & Geograhpy</a>
+                <a href="{% url 'products' %}?category=society-social-sciences" class="dropdown-item">Society & Social Sciences</a>
+                <a href="{% url 'products' %}?category=sport" class="dropdown-item">Sport</a>
+                <a href="{% url 'products' %}?category=stationery" class="dropdown-item">Stationery</a>
+                <a href="{% url 'products' %}?category=teaching-resources-education" class="dropdown-item">Teaching Resources & Education</a>
+                <a href="{% url 'products' %}?category=technology-engineering" class="dropdown-item">Technology & Engineering</a>
+                <a href="{% url 'products' %}?category=transport" class="dropdown-item">Transport</a>
+                <a href="{% url 'products' %}?category=travel-holiday-guides" class="dropdown-item">Travel & Holiday Guides</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="random-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Random Pick
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="fiction-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Fiction
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="random-link">
-                <a href="" class="dropdown-item">Romance</a>
-                <a href="" class="dropdown-item">Crime</a>
-                <a href="" class="dropdown-item">Classics</a>
+            <div class="dropdown-menu border-0" aria-labelledby="fiction-link">
+                <a href="{% url 'products' %}?category=science-fiction-fantasy-horror" class="dropdown-item">Science Fiction, Fantasy & Horror</a>
+                <a href="{% url 'products' %}?category=teen-young-adult" class="dropdown-item">Teen & Young Adult</a>
+                <a href="{% url 'products' %}?category=graphic-novels-anime-manga" class="dropdown-item">Graphic Novels, Anime & Manga</a>
+                <a href="{% url 'products' %}?category=poetry-drama" class="dropdown-item">Poetry & Drama</a>
+                <a href="{% url 'products' %}?category=crime-thriller" class="dropdown-item">Crime & Thriller</a>
+                <a href="{% url 'products' %}?category=childrens-books" class="dropdown-item">Children's Books</a>
+                <a href="{% url 'products' %}?category=romance" class="dropdown-item">Romance</a>
             </div>
         </li>
 
