@@ -100,6 +100,37 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+.center {
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    font-size: 22px;
+    transition: background-color .3s;
+    text-decoration: none;
+    float: left;
+    padding: 8px 16px;
+}
+
+.pagination-current {
+    color: black;
+    font-size: 18px;
+    transition: background-color .3s;
+    text-decoration: none;
+    float: left;
+    padding: 12px 16px;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+    text-decoration: none;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

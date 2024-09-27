@@ -12,7 +12,7 @@ def all_products(request):
     """ A view to show all products, including sorting and searches """
 
     products = Product.objects.all()
-    paginator = Paginator(products, 25) # Show 25 products per page
+    paginator = Paginator(products, 24) # Show 24 products per page
 
     query = None
     categories = None
