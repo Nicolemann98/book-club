@@ -2,8 +2,9 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
+from django.core.paginator import Paginator
 
-from .models import Product , Category
+from .models import Product, Category
 
 # Create your views here.
 
@@ -11,10 +12,13 @@ def all_products(request):
     """ A view to show all products, including sorting and searches """
 
     products = Product.objects.all()
+    paginator = Paginator(products, 25) # Show 25 products per page
+
     query = None
     categories = None
     sort = None
     direction = None
+    page_number = None
 
     if request.GET:
         if 'sort' in request.GET:
@@ -48,13 +52,18 @@ def all_products(request):
             queries = Q(name__icontains=query) | Q(author__icontains=query)
             products = products.filter(queries)
 
+        page_number = request.GET.get('page')
+
     current_sorting = f'{sort}_{direction}'
 
+    page_obj = paginator.get_page(page_number)
+
     context = {
-        'products' : products[:500], 
+        'products' : products, 
         'search_term' : query,
         'current_categories' : categories,
         'current_sorting' : current_sorting,
+        "page_obj": page_obj
     }
 
     return render(request, 'products/products.html', context)
