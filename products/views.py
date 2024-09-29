@@ -12,7 +12,6 @@ def all_products(request):
     """ A view to show all products, including sorting and searches """
 
     products = Product.objects.all()
-    paginator = Paginator(products, 24) # Show 24 products per page
 
     query = None
     categories = None
@@ -56,6 +55,7 @@ def all_products(request):
 
     current_sorting = f'{sort}_{direction}'
 
+    paginator = Paginator(products, 24) # Show 24 products per page
     page_obj = paginator.get_page(page_number)
 
     context = {
