@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://nicole-mann-book-club-a8cddb487546.herokuapp.com/', 'localhost']
+ALLOWED_HOSTS = ['nicole-mann-book-club-a8cddb487546.herokuapp.com/', 'localhost']
 CSRF_TRUSTED_ORIGINS = ['https://8000-nicolemann98-bookclub-xnlm6mv04uo.ws.codeinstitute-ide.net']
 
 
