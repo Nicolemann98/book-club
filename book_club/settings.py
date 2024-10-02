@@ -178,7 +178,9 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+print("---------aaa----------------")
 if 'USE_AWS' in os.environ:
+    print("--------------AWS success----------------")
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'nicole-mann-book-club'
     AWS_S3_REGION_NAME = 'eu-north-1'
