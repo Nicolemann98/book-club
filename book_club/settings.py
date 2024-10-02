@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-nicolemann98-bookclub-xnlm6mv04uo.ws.codeinstitute-ide.net']
 CSRF_TRUSTED_ORIGINS = ['https://8000-nicolemann98-bookclub-xnlm6mv04uo.ws.codeinstitute-ide.net']
