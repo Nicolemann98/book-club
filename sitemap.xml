@@ -1,0 +1,2512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/accounts/login/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/bag/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=art-photography</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=biography</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=business-finance-law</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=computing</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=crafts-hobbies</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=dictionaries-languages</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=entertainment</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=food-drink</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=health</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=history-archaeology</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=home-garden</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=humour</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=medical</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=mind-body-spirit</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=natural-history</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=personal-development</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=reference</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=religion</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=science-geography</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=society-social-sciences</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=sport</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=stationery</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=teaching-resources-education</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=technology-engineering</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=transport</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=travel-holiday-guides</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=science-fiction-fantasy-horror</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=teen-young-adult</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=graphic-novels-anime-manga</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=poetry-drama</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=crime-thriller</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=childrens-books</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=romance</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=new_arrivals</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=deals</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=clearance</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?category=new_arrivals,deals,clearance</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15236/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14836/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10778/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13897/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13855/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10518/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3404/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/7768/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/11288/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/7622/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5860/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/7661/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/7718/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/7884/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1040/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3126/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2250/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5549/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2099/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2007/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5357/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6510/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2578/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15390/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?page=2</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?page=1358</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/777/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/940/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/629/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/774/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/845/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/934/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/289/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/579/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/673/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/745/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/813/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/818/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/867/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/876/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/167/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/285/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/400/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/495/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/662/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/663/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/686/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/693/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/788/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/948/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/4/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/7/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/11/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/19/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/21/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/22/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/23/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/24/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1979/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1980/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1981/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1982/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1983/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1984/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1985/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1986/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1987/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1988/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1989/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1990/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1991/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1992/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1993/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1994/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1995/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1996/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1997/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1998/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/1999/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2000/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2001/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2002/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?page=41</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3371/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2961/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2962/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2963/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2964/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2965/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2966/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2967/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2968/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2969/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2970/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2971/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2972/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2973/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2974/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2975/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2976/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2977/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2978/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2979/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2980/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2981/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2982/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/2983/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/?page=42</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3949/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3950/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3951/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3952/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3953/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3954/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3955/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3956/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3957/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3958/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3959/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3960/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3961/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3962/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3963/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3964/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3965/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3966/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3967/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3968/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3969/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3970/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3971/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/3972/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5924/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5925/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5926/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5927/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5928/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5929/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5930/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5931/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5932/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5933/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5934/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5935/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5936/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5937/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5938/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5939/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5940/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5941/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5942/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5943/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5944/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5945/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5946/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/5947/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6911/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6912/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6913/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6914/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6915/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6916/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6917/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6918/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6919/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6920/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6921/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6922/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6923/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6924/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6925/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6926/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6927/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6928/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6929/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6930/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6931/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6932/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6933/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/6934/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8889/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8890/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8891/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8892/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8893/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8894/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8895/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8896/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8897/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8898/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8899/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8900/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8901/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8902/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8903/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8904/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8905/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8906/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8907/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8908/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8909/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8910/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8911/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/8912/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10053/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9877/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9878/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9879/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9880/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9881/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9882/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9883/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9884/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9885/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9886/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9887/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9888/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9889/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9890/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9891/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9892/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9893/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9894/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9895/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9896/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9897/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9898/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/9899/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/11393/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/11458/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10852/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10853/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10854/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10855/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10856/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10857/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10858/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10859/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10860/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10861/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10862/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10863/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10864/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10865/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10866/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10867/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10868/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10869/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10870/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10871/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10872/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/10873/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13332/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13365/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13758/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12829/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12830/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12831/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12832/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12833/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12834/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12835/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12836/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12837/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12838/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12839/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12840/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12841/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12842/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12843/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12844/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12845/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12846/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12847/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12848/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/12849/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13818/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13819/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13820/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13821/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13822/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13823/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13824/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13825/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13826/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13827/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13828/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13829/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13830/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13831/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13832/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13833/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13834/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13835/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13836/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13837/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13838/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13839/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13840/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/13841/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14965/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14807/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14808/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14809/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14810/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14811/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14812/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14813/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14814/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14815/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14816/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14817/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14818/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14819/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14820/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14821/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14822/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14823/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14824/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14825/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14826/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14827/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14828/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/14829/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15927/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16092/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16126/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16226/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16227/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16228/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16229/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16493/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16494/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15796/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15797/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15798/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15799/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15800/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15801/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15802/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15803/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15804/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15805/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15806/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15807/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15808/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15809/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/15810/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17293/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16785/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16786/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16787/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16788/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16789/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16790/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16791/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16792/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16793/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16794/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16795/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16796/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16797/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16798/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16799/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16800/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16801/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16802/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16803/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16804/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16805/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16806/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/16807/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17774/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17775/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17776/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17777/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17778/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17779/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17780/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17781/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17782/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17783/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17784/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17785/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17786/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17787/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17788/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17789/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17790/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17791/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17792/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17793/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17794/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17795/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17796/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/17797/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18763/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18764/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18765/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18766/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18767/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18768/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18769/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18770/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18771/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18772/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18773/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18774/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18775/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18776/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18777/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18778/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18779/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18780/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18781/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18782/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18783/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18784/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18785/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/18786/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20740/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20741/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20742/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20743/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20744/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20745/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20746/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20747/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20748/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20749/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20750/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20751/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20752/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20753/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20754/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20755/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20756/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20757/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://nicole-mann-book-club-a8cddb487546.herokuapp.com/products/20758/</loc>
+  <lastmod>2024-10-03T08:47:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
