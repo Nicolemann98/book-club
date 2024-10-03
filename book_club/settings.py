@@ -174,9 +174,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+django_heroku.settings(locals(), staticfiles=False)
 
 if 'USE_AWS' in os.environ:
     # Cache control
@@ -184,6 +186,7 @@ if 'USE_AWS' in os.environ:
         'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
         'CacheControl': 'max-age=94608000',
     }
+
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'nicole-mann-book-club'
     AWS_S3_REGION_NAME = 'eu-north-1'
