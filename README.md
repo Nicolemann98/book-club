@@ -24,25 +24,25 @@ And on a phone:
 
 This responsiveness is also true for other pages including the products, basket, and checkout. Noting that stripe is successfully integrated into this test environment to take card payments and give us a success or error message.
 
-![alt text](image-6.png)
+![image](image-6.png)
 
 And on success, we get a notification, order details and a success email gets sent to our email address.
 
-![alt text](image-7.png)
+![image](image-7.png)
 
 This is the booking screen from the staff member's perspective:
 
 They are also able to create an account and log in and out of it.
 
-![alt text](image-3.png)
+![image](image-3.png)
 
 Logging in as a superuser (admin123, see above) we are easily able to add new products under My Acount -> Product Management
 
-![alt text](image-4.png)
+![image](image-4.png)
 
 They are also able to edit and delete products by navigating to the product page (or even from the all products page)
 
-![alt text](image-5.png)
+![image](image-5.png)
 
 Navigating these successfully works at creating/editing/deleting the chosen product.
 
@@ -55,7 +55,7 @@ Webhooks were receiving a 401 error, the cause was that the link was not public,
 
 The code passes the inbuild python flake validator. The only errors are auto-generated classes and a single one in urls.py about the 404 handler, but this is the standard implementation set out by code institute's documentation.
 
-![alt text](image-8.png)
+![image](image-8.png)
 
 
 ## Deployment 
