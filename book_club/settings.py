@@ -28,9 +28,6 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
-# CSRF_TRUSTED_ORIGINS = ['https://nicole-mann-book-club-a8cddb487546.herokuapp.com/', 'localhost']
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -72,7 +69,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 TEMPLATES = [
     {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates', 
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             os.path.join(BASE_DIR, 'templates'),
             os.path.join(BASE_DIR, 'templates', 'allauth'),
@@ -81,7 +78,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -139,16 +136,20 @@ else:
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': 'django.contrib.auth.password_validation.\
+            UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME': 'django.contrib.auth.password_validation.\
+            MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.\
+            CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': 'django.contrib.auth.password_validation.\
+            NumericPasswordValidator',
     },
 ]
 
@@ -194,13 +195,13 @@ if 'USE_AWS' in os.environ:
     STATICFILES_LOCATION = 'static'
     MEDIAFILES_LOCATION = 'media'
     STORAGES = {
-    "default": {
-        "BACKEND": "custom_storages.MediaStorage",
-    },
-    "staticfiles": {
-        "BACKEND": "custom_storages.StaticStorage",
-    },
-}
+        "default": {
+            "BACKEND": "custom_storages.MediaStorage",
+        },
+        "staticfiles": {
+            "BACKEND": "custom_storages.StaticStorage",
+        },
+    }
 
     # Override static and media URLs in production
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
@@ -210,9 +211,9 @@ if 'USE_AWS' in os.environ:
 FREE_DELIVERY_THRESHOLD = 30
 STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'gbp'
-STRIPE_SECRET_KEY=os.environ.get('STRIPE_SECRET_KEY', '') 
-STRIPE_PUBLIC_KEY=os.environ.get('STRIPE_PUBLIC_KEY', '') 
-STRIPE_WH_SECRET=os.environ.get('STRIPE_WH_SECRET', '')
+STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY', '')
+STRIPE_PUBLIC_KEY = os.environ.get('STRIPE_PUBLIC_KEY', '')
+STRIPE_WH_SECRET = os.environ.get('STRIPE_WH_SECRET', '')
 
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

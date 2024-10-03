@@ -10,6 +10,7 @@ from .forms import ProductForm
 
 # Create your views here.
 
+
 def all_products(request):
     """ A view to show all products, including sorting and searches """
 
@@ -28,7 +29,6 @@ def all_products(request):
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 products = products.annotate(lower_name=Lower('name'))
-            
 
             if 'direction' in request.GET:
                 direction = request.GET['direction']
@@ -39,10 +39,9 @@ def all_products(request):
                 sortkey = 'category__name'
 
         if 'category' in request.GET:
-            categories = request.GET['category']. split (',')
+            categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
-
 
         if 'q' in request.GET:
             query = request.GET['q']
@@ -57,14 +56,14 @@ def all_products(request):
 
     current_sorting = f'{sort}_{direction}'
 
-    paginator = Paginator(products, 24) # Show 24 products per page
+    paginator = Paginator(products, 24)  # Show 24 products per page
     page_obj = paginator.get_page(page_number)
 
     context = {
-        'products' : products, 
-        'search_term' : query,
-        'current_categories' : categories,
-        'current_sorting' : current_sorting,
+        'products': products,
+        'search_term': query,
+        'current_categories': categories,
+        'current_sorting': current_sorting,
         "page_obj": page_obj
     }
 
@@ -77,7 +76,7 @@ def product_detail(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
 
     context = {
-        'product' : product,
+        'product': product,
     }
 
     return render(request, 'products/product_detail.html', context)
@@ -97,10 +96,13 @@ def add_product(request):
             messages.success(request, 'Successfully added product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to add product. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to add product. Please ensure the form is valid.'
+            )
     else:
         form = ProductForm()
-    
+
     template = 'products/add_product.html'
     context = {
         'form': form,
@@ -115,7 +117,7 @@ def edit_product(request, product_id):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
-    
+
     product = get_object_or_404(Product, pk=product_id)
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES, instance=product)
@@ -124,7 +126,10 @@ def edit_product(request, product_id):
             messages.success(request, 'Successfully updated product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to update product. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to update product. Please ensure the form is valid.'
+            )
     else:
         form = ProductForm(instance=product)
         messages.info(request, f'You are editing {product.name}')
