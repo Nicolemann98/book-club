@@ -16,4 +16,4 @@ urlpatterns = [
     path('profile/', include('profiles.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-# handler404 = 'book_club.views.handler404'
+handler404 = 'book_club.views.handler404'
