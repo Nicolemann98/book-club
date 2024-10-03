@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://nicole-mann-book-club-a8cddb487546.herokuapp.com/sitemap.xml
