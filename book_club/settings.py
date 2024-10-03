@@ -28,7 +28,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['https://nicole-mann-book-club-a8cddb487546.herokuapp.com/', 'localhost']
+# CSRF_TRUSTED_ORIGINS = ['https://nicole-mann-book-club-a8cddb487546.herokuapp.com/', 'localhost']
 
 
 # Application definition
