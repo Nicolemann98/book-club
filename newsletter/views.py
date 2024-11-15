@@ -13,3 +13,5 @@ def subscribe_newsletter(request):
         form = NewsletterSubscriptionForm()
 
     return render(request, 'newsletter/subscribe.html', {'form': form})
+
+    # TODO unsubscribe
