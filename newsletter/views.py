@@ -63,12 +63,13 @@ def manage_newsletter(request):
             newsletter_sent = NewsletterSent(newsletter=newsletter, newsletter_subscription=subscription)
             newsletter_sent.save()
 
-        # send_mail(
-        #     newsletter.subject,
-        #     newsletter.body,
-        #     settings.DEFAULT_FROM_EMAIL,
-        #     email_addresses
-        # )
+        send_mail(
+            newsletter.subject,
+            newsletter.body,
+            settings.DEFAULT_FROM_EMAIL,
+            email_addresses,
+            fail_silently=False
+        )
         
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
