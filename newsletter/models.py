@@ -7,17 +7,17 @@ class NewsletterSubscription(models.Model):
     is_active = models.BooleanField(default=True)
 
 
-class Newsletter(models.Model):
-    date_sent = models.DateTimeField(auto_now_add=True)
-    # file storage location
+# class Newsletter(models.Model):
+#     date_sent = models.DateTimeField(auto_now_add=True)
+#     # file storage location
 
 
-class NewsletterSent(models.Model):
-    newsletter = models.ForeignKey(
-        Newsletter,
-        on_delete=models.CASCADE
-    )
-    newsletter_subscription = models.ForeignKey(
-        NewsletterSubscription,
-        on_delete=models.CASCADE
-    )
+# class NewsletterSent(models.Model):
+#     newsletter = models.ForeignKey(
+#         Newsletter,
+#         on_delete=models.CASCADE
+#     )
+#     newsletter_subscription = models.ForeignKey(
+#         NewsletterSubscription,
+#         on_delete=models.CASCADE
+#     )

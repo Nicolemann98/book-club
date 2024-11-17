@@ -27,6 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://8000-nicolemann98-bookclub-swtiu67oxvx.ws-eu116.gitpod.io', 'https://nicole-mann-book-club-a8cddb487546.herokuapp.com/']
 
 # Application definition
 

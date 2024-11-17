@@ -12,3 +12,7 @@ class NewsletterSubscriptionForm(forms.ModelForm):
         if NewsletterSubscription.objects.filter(email=email).exists():
             raise forms.ValidationError("This email is already subscribed.")
         return email
+
+
+class NewsletterUnsubscriptionForm(forms.Form):
+    email = forms.EmailField(label='Email Address', required=True)

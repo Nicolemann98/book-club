@@ -14,7 +14,7 @@
 <div class="container-fluid">
   <div class="row">
       <div class="col text-center mt-3">
-          <h2 class="logo-font">Subscribe to our Newsletter</h2>
+          <h2 class="logo-font">Unsubscribe from our Newsletter</h2>
       </div>
   </div>
 
@@ -29,10 +29,10 @@
   <form method="POST">
     {% csrf_token %}
     <p>
-      Please enter your email below to subscribe to our Newsletter.
+      Please enter your email below to unsubscribe from our Newsletter.
     </p>
     {{ form.as_p }}
-    <button type="submit">Subscribe</button>
+    <button type="submit">Unsubscribe</button>
   </form>
 </div>
 {% endblock %}
