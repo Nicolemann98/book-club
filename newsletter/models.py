@@ -8,7 +8,8 @@ class NewsletterSubscription(models.Model):
 
 class Newsletter(models.Model):
     date_sent = models.DateTimeField(auto_now_add=True)
-    # file storage location
+    subject = models.TextField(blank=True, default="")
+    body = models.TextField(blank=True, default="")
 
 
 class NewsletterSent(models.Model):

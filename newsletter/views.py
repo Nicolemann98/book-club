@@ -1,7 +1,12 @@
 from django.shortcuts import render, redirect, reverse
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from .models import NewsletterSubscription
-from .forms import NewsletterSubscriptionForm, NewsletterUnsubscriptionForm
+from .forms import (
+    NewsletterSubscriptionForm,
+    NewsletterUnsubscriptionForm,
+    NewsletterManagementForm
+)
 
 def subscribe_newsletter(request):
     if request.method == "POST":
@@ -44,3 +49,26 @@ def unsubscribe_newsletter(request):
         form = NewsletterUnsubscriptionForm()
 
     return render(request, 'newsletter/unsubscribe.html', {'form': form})
+
+@login_required
+def manage_newsletter(request):
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+    
+    if request.method == 'POST':
+        form = NewsletterManagementForm(request.POST)
+        if form.is_valid():
+            # send emails, add all to NewsletterSent model
+            newsletter = form.save()
+            messages.success(request, 'Successfully sent newsletter!')
+            return redirect(reverse('home'))
+        else:
+            messages.error(
+                request,
+                'Failed to send newsletter. Please ensure the form is valid.'
+            )
+    else:
+        form = NewsletterManagementForm()
+    
+    return render(request, 'newsletter/manage.html', {'form': form})
