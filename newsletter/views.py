@@ -1,6 +1,9 @@
 from django.shortcuts import render, redirect, reverse
+from django.core.mail import send_mail
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.conf import settings
+
 from .models import NewsletterSubscription, NewsletterSent
 from .forms import (
     NewsletterSubscriptionForm,
@@ -52,12 +55,20 @@ def unsubscribe_newsletter(request):
 
 @login_required
 def manage_newsletter(request):
-    def send_email(newsletter):
+    def send_emails(newsletter):
         all_subscriptions = NewsletterSubscription.objects.all()
+        email_addresses = []
         for subscription in all_subscriptions:
-            # TODO send email
+            email_addresses.append(subscription.email)
             newsletter_sent = NewsletterSent(newsletter=newsletter, newsletter_subscription=subscription)
             newsletter_sent.save()
+
+        # send_mail(
+        #     newsletter.subject,
+        #     newsletter.body,
+        #     settings.DEFAULT_FROM_EMAIL,
+        #     email_addresses
+        # )
         
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
@@ -68,7 +79,7 @@ def manage_newsletter(request):
         if form.is_valid():
             try:
                 newsletter = form.save()
-                send_email(newsletter)
+                send_emails(newsletter)
                 messages.success(request, 'Successfully sent newsletter!')
                 return redirect(reverse('home'))
             except Exception as e:
