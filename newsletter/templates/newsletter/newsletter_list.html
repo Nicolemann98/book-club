@@ -28,6 +28,17 @@
     </li>
     {% endfor %}
   </ul>
+  {% elif newsletter_recipients %}
+  <ul>
+    {% for newsletter, recipients in newsletter_recipients.items %}
+    <li>
+      <strong>{{ newsletter.subject }}</strong><br>
+      <em>Sent on: {{ newsletter.date_sent|date:"F j, Y, g:i a" }}</em><br>
+      <p>{{ newsletter.body }}</p><br>
+      <p>Sent to: {{ recipients }}</p>
+    </li>
+    {% endfor %}
+  </ul>
   {% else %}
   <p>No newsletters available.</p>
   {% endif %}

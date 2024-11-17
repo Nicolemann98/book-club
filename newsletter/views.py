@@ -105,8 +105,24 @@ def send_newsletter(request):
 
 def view_newsletters(request):
     newsletters = Newsletter.objects.all().order_by('date_sent')
+
+    if request.user.is_superuser:
+        newsletter_recipients = {}
+        for newsletter in newsletters:
+            recipients_query = NewsletterSent.objects.all().filter(newsletter=newsletter)
+            recipients_email = []
+            for recipient in recipients_query:
+                recipients_email.append(recipient.newsletter_subscription.email)
+            newsletter_recipients[newsletter] = recipients_email
+        return render(
+            request,
+            'newsletter/newsletter_list.html',
+            {'newsletter_recipients': newsletter_recipients}
+        )
+
+
     return render(
-        request,\
+        request,
         'newsletter/newsletter_list.html',
         {'newsletters': newsletters}
     )
