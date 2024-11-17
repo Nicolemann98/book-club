@@ -73,10 +73,11 @@
                         </a>
                         <div class="dropdown-menu border-0">
                             {% if request.user.is_superuser %}
-                                <a href="{% url 'newsletter_management' %}" class="dropdown-item">Newsletter Management</a>
+                                <a href="{% url 'send_newsletter' %}" class="dropdown-item">Send Newsletter</a>
                             {% endif %}
                             <a href="{% url 'subscribe_newsletter' %}" class="dropdown-item">Sign Up</a>
                             <a href="{% url 'unsubscribe_newsletter' %}" class="dropdown-item">Unsubscribe</a>
+                            <a href="{% url 'view_newsletters' %}" class="dropdown-item">View Newsletter Archive</a>
                         </div>
                     </li>
                     <li class="list-inline-item dropdown">

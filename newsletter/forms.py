@@ -1,7 +1,7 @@
 from django import forms
 from .models import NewsletterSubscription, Newsletter
 
-class NewsletterSubscriptionForm(forms.ModelForm):
+class NewsletterSubscribeForm(forms.ModelForm):
     class Meta:
         model = NewsletterSubscription
         fields = ['email']
@@ -14,11 +14,11 @@ class NewsletterSubscriptionForm(forms.ModelForm):
         return email
 
 
-class NewsletterUnsubscriptionForm(forms.Form):
+class NewsletterUnsubscribeForm(forms.Form):
     email = forms.EmailField(label='Email Address', required=True)
 
 
-class NewsletterManagementForm(forms.ModelForm):
+class SendNewsletterForm(forms.ModelForm):
     class Meta:
         model = Newsletter
         fields = '__all__'
