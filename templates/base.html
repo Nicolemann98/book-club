@@ -63,6 +63,22 @@
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+                    
+                    <li class="list-inline-item dropdown">
+                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="text-center">
+                                <div><i class="fas fa-envelope fa-lg"></i></div>
+                                <p class="my-0">Newsletter</p>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu border-0">
+                            {% if request.user.is_superuser %}
+                                <a href="{% url 'newsletter_management' %}" class="dropdown-item">Newsletter Management</a>
+                            {% endif %}
+                            <a href="{% url 'subscribe_newsletter' %}" class="dropdown-item">Sign Up</a>
+                            <a href="{% url 'unsubscribe_newsletter' %}" class="dropdown-item">Unsubscribe</a>
+                        </div>
+                    </li>
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
