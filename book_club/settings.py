@@ -172,6 +172,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 MEDIA_URL = '/media/'
@@ -208,6 +209,7 @@ if 'USE_AWS' in os.environ:
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 
 print("STATIC_URL" + STATIC_URL)
+print("STATIC_ROOT" + STATIC_ROOT)
 print("MEDIA_URL" + MEDIA_URL)
 
 # Stripe
