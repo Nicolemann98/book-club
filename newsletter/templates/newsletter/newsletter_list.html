@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+  <div class="row">
+    <div class="col"></div>
+  </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col text-center mt-3">
+      <h2 class="logo-font">Newsletter Archive</h2>
+    </div>
+  </div>
+
+  {% if newsletters %}
+  <ul>
+    {% for newsletter in newsletters %}
+    <li>
+      <strong>{{ newsletter.subject }}</strong><br>
+      <em>Sent on: {{ newsletter.date_sent|date:"F j, Y, g:i a" }}</em><br>
+      <p>{{ newsletter.body }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  {% elif newsletter_recipients %}
+  <ul>
+    {% for newsletter, recipients in newsletter_recipients.items %}
+    <li>
+      <strong>{{ newsletter.subject }}</strong><br>
+      <em>Sent on: {{ newsletter.date_sent|date:"F j, Y, g:i a" }}</em><br>
+      <p>{{ newsletter.body }}</p><br>
+      <p>Sent to: {{ recipients }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>No newsletters available.</p>
+  {% endif %}
+</div>
+{% endblock %}
