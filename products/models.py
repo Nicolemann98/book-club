@@ -38,6 +38,7 @@ class Product(models.Model):
     img_paths = models.ImageField(null=True, blank=True)
     format = models.CharField(max_length=254, null=True, blank=True)
     currency = models.CharField(max_length=2, null=True, blank=True)
+    creation_date = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.name

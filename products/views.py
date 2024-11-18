@@ -4,9 +4,12 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 from django.core.paginator import Paginator
+from django.utils import timezone
 
 from .models import Product, Category
 from .forms import ProductForm
+
+from datetime import timedelta
 
 # Create your views here.
 
@@ -51,6 +54,12 @@ def all_products(request):
 
             queries = Q(name__icontains=query) | Q(author__icontains=query)
             products = products.filter(queries)
+
+        if 'newer-than' in request.GET:
+            days_old = int(request.GET['newer-than'])
+            days_ago = timezone.now() - timedelta(days=days_old)
+            
+            products = products.filter(creation_date__gt=days_ago)
 
         page_number = request.GET.get('page')
 
