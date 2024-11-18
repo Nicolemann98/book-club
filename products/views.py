@@ -1,12 +1,15 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from django.db.models import Q
+from django.db.models import F, Q
 from django.db.models.functions import Lower
 from django.core.paginator import Paginator
+from django.utils import timezone
 
 from .models import Product, Category
 from .forms import ProductForm
+
+from datetime import timedelta
 
 # Create your views here.
 
@@ -51,6 +54,21 @@ def all_products(request):
 
             queries = Q(name__icontains=query) | Q(author__icontains=query)
             products = products.filter(queries)
+
+        if 'newer-than' in request.GET:
+            days_old = int(request.GET['newer-than'])
+            days_ago = timezone.now() - timedelta(days=days_old)
+
+            products = products.filter(creation_date__gt=days_ago)
+
+        if 'deals' in request.GET:
+            products = products.filter(
+                old_price__isnull=False,
+                price__lt=F('old_price')
+            )
+
+        if 'clearance' in request.GET:
+            products = products.filter(is_clearance=True)
 
         page_number = request.GET.get('page')
 
