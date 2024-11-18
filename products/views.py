@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from django.db.models import Q
+from django.db.models import F, Q
 from django.db.models.functions import Lower
 from django.core.paginator import Paginator
 from django.utils import timezone
@@ -58,8 +58,14 @@ def all_products(request):
         if 'newer-than' in request.GET:
             days_old = int(request.GET['newer-than'])
             days_ago = timezone.now() - timedelta(days=days_old)
-            
+
             products = products.filter(creation_date__gt=days_ago)
+
+        if 'deals' in request.GET:
+            products = products.filter(
+                old_price__isnull=False,
+                price__lt=F('old_price')
+            )
 
         page_number = request.GET.get('page')
 
