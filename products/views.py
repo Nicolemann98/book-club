@@ -67,6 +67,9 @@ def all_products(request):
                 price__lt=F('old_price')
             )
 
+        if 'clearance' in request.GET:
+            products = products.filter(is_clearance=True)
+
         page_number = request.GET.get('page')
 
     current_sorting = f'{sort}_{direction}'

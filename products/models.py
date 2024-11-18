@@ -39,6 +39,7 @@ class Product(models.Model):
     format = models.CharField(max_length=254, null=True, blank=True)
     currency = models.CharField(max_length=2, null=True, blank=True)
     creation_date = models.DateTimeField(auto_now_add=True)
+    is_clearance = models.BooleanField(default=False)
 
     def __str__(self):
         return self.name
