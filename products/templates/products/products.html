@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load pagination_tools %}
 
 {% block page_header %}
     <div class="container header-container">
@@ -129,8 +130,8 @@
                     <div class="pagination">
                         <span class="step-links">
                             {% if page_obj.has_previous %}
-                                <a href="?page=1" class="pagination-arrow">&laquo;</a>
-                                <a href="?page={{ page_obj.previous_page_number }}" class="pagination-arrow">&lt;<previous></a>
+                                <a href="?{% pagination_transform page=1 %}" class="pagination-arrow">&laquo;</a>
+                                <a href="?{% pagination_transform page=page_obj.previous_page_number %}" class="pagination-arrow">&lt;<previous></a>
                             {% endif %}
                     
                             <span class="pagination-current">
@@ -138,8 +139,8 @@
                             </span>
                     
                             {% if page_obj.has_next %}
-                                <a href="?page={{ page_obj.next_page_number }}" class="pagination-arrow">&gt;</a>
-                                <a href="?page={{ page_obj.paginator.num_pages }}" class="pagination-arrow">&raquo;</a>
+                                <a href="?{% pagination_transform page=page_obj.next_page_number %}" class="pagination-arrow">&gt;</a>
+                                <a href="?{% pagination_transform page=page_obj.paginator.num_pages %}" class="pagination-arrow">&raquo;</a>
                             {% endif %}
                         </span>
                     </div>
