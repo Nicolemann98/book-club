@@ -66,13 +66,13 @@
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     
                     <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="newsletter-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <div><i class="fas fa-envelope fa-lg"></i></div>
                                 <p class="my-0">Newsletter</p>
                             </div>
                         </a>
-                        <div class="dropdown-menu border-0" aria-labelledby="newsletter-options">
+                        <div class="dropdown-menu border-0">
                             {% if request.user.is_superuser %}
                                 <a href="{% url 'send_newsletter' %}" class="dropdown-item">Send Newsletter</a>
                             {% endif %}
@@ -118,6 +118,7 @@
                 </ul>
             </div>
         </div>
+    </div>
         <div class="row bg-white">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
