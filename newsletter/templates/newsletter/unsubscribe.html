@@ -18,14 +18,6 @@
       </div>
   </div>
 
-  {% if messages %}
-  <div class="alert alert-success">
-    {% for message in messages %}
-    <p>{{ message }}</p>
-    {% endfor %}
-  </div>
-  {% endif %}
-
   <form method="POST">
     {% csrf_token %}
     <p>
