@@ -6,7 +6,12 @@ The admin superuser is as follows, username: `admin123` & password is: `a3e5n7`.
 
 In order to test the functions of the checkout page and all its features, new users can be created in the account page.
 
+There is an issue with a large number of images, see the Bugs section of this readme for more information.
+
 ## Testing
+
+See below for a brief synposis of my testing flow, for a more in-depth look, visit https://github.com/users/Nicolemann98/projects/2 and check the comments on each ticket in the Done column, here it is broken down by feature rather than the overall look below.
+
 Initally I tested to ensure that the homepage would be responsive over desktop, tablet and mobile screens
 Responsive home screen on mobile:
 
@@ -49,9 +54,12 @@ Navigating these successfully works at creating/editing/deleting the chosen prod
 ## Bugs 
 
 There was an issue with very slow loading speeds for the products, this is due to the large number of available products on this site. I tackled this by using Django pagination to separate the products onto pages.
+
 Webhooks were receiving a 401 error, the cause was that the link was not public, so I made the URL public to resolve this.
 
-### Python Validator
+There is an ongoing issue with not all of the images showing correctly. This is because the data set I chose is very large and I hit the upload data limit for the free AWS plan, if this was a real application then I would simply pay the AWS cost from the company expense account and allow the upload to finish, however because this is for educational purposes and I am not running a real company, I decided to stop the upload just as the free amount ran out and save myself the cost. Even though a lot of them are missing, the examiner will be able to see that a lot of them are present which proves that I have the knowledge of how to do this, just not the money, as a side-note, the upload seemed to run in reverse alphabetical order by categories so to see the desired images, filter by categories later in the alphabet.
+
+## Python Validator
 
 The code passes the inbuild python flake validator. The only errors are auto-generated classes, a single one in urls.py about the 404 handler, and a single one about 'checkout.signals' being imported but unused. However all auto-generated code is okay to ignore as sometimes they intentially ignore formatting for performance purposes and the other two and the standard implementations set out by code institute's documentation.
 
@@ -118,10 +126,9 @@ gitpod /workspace/book-club (main) $ python3 -m flake8
 gitpod /workspace/book-club (main) $
 ```
 
-
 ## Deployment 
 
-This project was deployed onto Heroku, the link for which is: https://nicole-mann-book-club-a8cddb487546.herokuapp.com/
+This project was deployed onto Heroku, the link for which is: https://nicole-mann-book-club-a8cddb487546.herokuapp.com/. I have followed the heroku documentation to set up auto deployments whenever code is pushed to the main branch, so to deploy changes to this application, simply commit and push that change to the main branch of this repository.
 
 ## Credits 
 
