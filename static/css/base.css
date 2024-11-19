@@ -347,6 +347,10 @@ input[name='q']::placeholder {
         font-size: 1rem;
     }
 
+    .navbar{
+        flex-wrap: nowrap;
+    }
+
     .navbar-toggler {
         padding: .6rem .6rem;
         font-size: 1rem;
