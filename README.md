@@ -59,7 +59,11 @@ Webhooks were receiving a 401 error, the cause was that the link was not public,
 
 There is an ongoing issue with not all of the images showing correctly. This is because the data set I chose is very large and I hit the upload data limit for the free AWS plan, if this was a real application then I would simply pay the AWS cost from the company expense account and allow the upload to finish, however because this is for educational purposes and I am not running a real company, I decided to stop the upload just as the free amount ran out and save myself the cost. Even though a lot of them are missing, the examiner will be able to see that a lot of them are present which proves that I have the knowledge of how to do this, just not the money, as a side-note, the upload seemed to run in reverse alphabetical order by categories so to see the desired images, filter by categories later in the alphabet.
 
-## Python Validator
+## Validators
+
+The code passes the W3 HTML validator at https://validator.w3.org/
+
+![HTML Validator](image-9.png)
 
 The code passes the inbuild python flake validator. The only errors are auto-generated classes, a single one in urls.py about the 404 handler, and a single one about 'checkout.signals' being imported but unused. However all auto-generated code is okay to ignore as sometimes they intentially ignore formatting for performance purposes and the other two and the standard implementations set out by code institute's documentation.
 
