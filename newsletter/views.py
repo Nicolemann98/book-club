@@ -63,7 +63,7 @@ def send_newsletter(request):
         email_addresses = []
         for subscription in all_subscriptions:
             email_addresses.append(subscription.email)
-            newsletter_sent = NewsletterSent(newsletter=newsletter, newsletter_subscription=subscription)
+            newsletter_sent = NewsletterSent(newsletter=newsletter, email=subscription.email)
             newsletter_sent.save()
 
         send_mail(
@@ -112,7 +112,7 @@ def view_newsletters(request):
             recipients_query = NewsletterSent.objects.all().filter(newsletter=newsletter)
             recipients_email = []
             for recipient in recipients_query:
-                recipients_email.append(recipient.newsletter_subscription.email)
+                recipients_email.append(recipient.email)
             newsletter_recipients[newsletter] = recipients_email
         return render(
             request,

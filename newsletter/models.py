@@ -17,7 +17,4 @@ class NewsletterSent(models.Model):
         Newsletter,
         on_delete=models.CASCADE
     )
-    newsletter_subscription = models.ForeignKey(
-        NewsletterSubscription,
-        on_delete=models.CASCADE
-    )
+    email = models.EmailField(unique=False)

@@ -20,7 +20,7 @@ class NewsletterAdmin(admin.ModelAdmin):
 class NewsletterSentAdmin(admin.ModelAdmin):
     list_display = (
         'newsletter',
-        'newsletter_subscription',
+        'email',
     )
 
 
