@@ -72,7 +72,7 @@
                                     <div class="row">
                                         <div class="col">
                                             <p class="lead mb-0 text-left font-weight-bold">
-                                                {% if product.old_price %}
+                                                {% if product.old_price and product.old_price > product.price %}
                                                 <del style="color: #dc3545">
                                                     £{{ product.old_price }}
                                                 </del>
