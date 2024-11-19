@@ -101,7 +101,7 @@ def send_newsletter(request):
     else:
         form = SendNewsletterForm()
     
-    return render(request, 'newsletter/manage.html', {'form': form})
+    return render(request, 'newsletter/send.html', {'form': form})
 
 def view_newsletters(request):
     newsletters = Newsletter.objects.all().order_by('date_sent')
