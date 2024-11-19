@@ -61,6 +61,8 @@ There is an ongoing issue with not all of the images showing correctly. This is 
 
 ## Validators
 
+### W3 Validator
+
 The code passes the W3 HTML validator at https://validator.w3.org/
 
 ![HTML Validator](readme-images/image-9.png)
@@ -68,6 +70,8 @@ The code passes the W3 HTML validator at https://validator.w3.org/
 This is true for all pages with the exception of the profile page (see below), however that is from Django's code and is not within my codebase so I will ignore this
 
 ![HTML Validator profile page](readme-images/image-10.png)
+
+### Flake Validator
 
 The code passes the inbuild python flake validator. The only errors are auto-generated classes, a single one in urls.py about the 404 handler, and a single one about 'checkout.signals' being imported but unused. However all auto-generated code is okay to ignore as sometimes they intentially ignore formatting for performance purposes and the other two and the standard implementations set out by code institute's documentation.
 
