@@ -1,6 +1,7 @@
 from django import forms
 from .models import NewsletterSubscription, Newsletter
 
+
 class NewsletterSubscribeForm(forms.ModelForm):
     class Meta:
         model = NewsletterSubscription

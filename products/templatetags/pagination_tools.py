@@ -2,6 +2,7 @@ from django import template
 
 register = template.Library()
 
+
 @register.simple_tag(takes_context=True)
 def pagination_transform(context, **kwargs):
     query = context['request'].GET.copy()

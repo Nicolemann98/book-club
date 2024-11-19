@@ -53,9 +53,70 @@ Webhooks were receiving a 401 error, the cause was that the link was not public,
 
 ### Python Validator
 
-The code passes the inbuild python flake validator. The only errors are auto-generated classes and a single one in urls.py about the 404 handler, but this is the standard implementation set out by code institute's documentation.
+The code passes the inbuild python flake validator. The only errors are auto-generated classes, a single one in urls.py about the 404 handler, and a single one about 'checkout.signals' being imported but unused. However all auto-generated code is okay to ignore as sometimes they intentially ignore formatting for performance purposes and the other two and the standard implementations set out by code institute's documentation.
 
-![image](image-8.png)
+```
+gitpod /workspace/book-club (main) $ python3 -m flake8
+./.vscode/arctictern.py:10:1: F401 'subprocess' imported but unused
+./.vscode/arctictern.py:20:80: E501 line too long (92 > 79 characters)
+./.vscode/arctictern.py:48:22: E124 closing bracket does not match visual indentation
+./.vscode/arctictern.py:51:22: E124 closing bracket does not match visual indentation
+./.vscode/arctictern.py:64:1: W293 blank line contains whitespace
+./.vscode/arctictern.py:71:1: E302 expected 2 blank lines, found 1
+./.vscode/arctictern.py:79:1: W293 blank line contains whitespace
+./.vscode/arctictern.py:100:10: E231 missing whitespace after ','
+./.vscode/arctictern.py:109:1: W293 blank line contains whitespace
+./.vscode/arctictern.py:110:80: E501 line too long (81 > 79 characters)
+./.vscode/arctictern.py:136:1: W293 blank line contains whitespace
+./.vscode/arctictern.py:154:19: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+./.vscode/arctictern.py:156:1: W293 blank line contains whitespace
+./.vscode/arctictern.py:169:80: E501 line too long (98 > 79 characters)
+./.vscode/arctictern.py:178:80: E501 line too long (92 > 79 characters)
+./.vscode/make_url.py:10:39: E231 missing whitespace after ','
+./.vscode/make_url.py:11:36: E231 missing whitespace after ','
+./.vscode/make_url.py:12:39: E231 missing whitespace after ','
+./book_club/urls.py:20:1: F811 redefinition of unused 'handler404' from line 6
+./checkout/apps.py:9:9: F401 'checkout.signals' imported but unused
+./checkout/migrations/0001_initial.py:19:80: E501 line too long (117 > 79 characters)
+./checkout/migrations/0001_initial.py:20:80: E501 line too long (82 > 79 characters)
+./checkout/migrations/0001_initial.py:25:80: E501 line too long (85 > 79 characters)
+./checkout/migrations/0001_initial.py:28:80: E501 line too long (92 > 79 characters)
+./checkout/migrations/0001_initial.py:29:80: E501 line too long (83 > 79 characters)
+./checkout/migrations/0001_initial.py:31:80: E501 line too long (98 > 79 characters)
+./checkout/migrations/0001_initial.py:32:80: E501 line too long (97 > 79 characters)
+./checkout/migrations/0001_initial.py:33:80: E501 line too long (97 > 79 characters)
+./checkout/migrations/0001_initial.py:39:80: E501 line too long (117 > 79 characters)
+./checkout/migrations/0001_initial.py:41:80: E501 line too long (104 > 79 characters)
+./checkout/migrations/0001_initial.py:42:80: E501 line too long (137 > 79 characters)
+./checkout/migrations/0001_initial.py:43:80: E501 line too long (115 > 79 characters)
+./checkout/migrations/0004_order_user_profile.py:18:80: E501 line too long (155 > 79 characters)
+./newsletter/migrations/0001_initial.py:17:80: E501 line too long (117 > 79 characters)
+./newsletter/migrations/0002_newsletter_remove_newslettersubscription_is_active_and_more.py:17:80: E501 line too long (117 > 79 characters)
+./newsletter/migrations/0002_newsletter_remove_newslettersubscription_is_active_and_more.py:28:80: E501 line too long (117 > 79 characters)
+./newsletter/migrations/0002_newsletter_remove_newslettersubscription_is_active_and_more.py:29:80: E501 line too long (123 > 79 characters)
+./newsletter/migrations/0002_newsletter_remove_newslettersubscription_is_active_and_more.py:30:80: E501 line too long (148 > 79 characters)
+./newsletter/migrations/0003_newsletter_body_newsletter_subject.py:9:80: E501 line too long (91 > 79 characters)
+./products/migrations/0001_initial.py:18:80: E501 line too long (117 > 79 characters)
+./products/migrations/0001_initial.py:20:80: E501 line too long (91 > 79 characters)
+./products/migrations/0001_initial.py:26:80: E501 line too long (117 > 79 characters)
+./products/migrations/0001_initial.py:27:80: E501 line too long (82 > 79 characters)
+./products/migrations/0001_initial.py:31:80: E501 line too long (103 > 79 characters)
+./products/migrations/0001_initial.py:32:80: E501 line too long (83 > 79 characters)
+./products/migrations/0001_initial.py:33:80: E501 line too long (86 > 79 characters)
+./products/migrations/0001_initial.py:34:80: E501 line too long (141 > 79 characters)
+./products/migrations/0002_product_currency_product_format_product_old_price.py:26:80: E501 line too long (81 > 79 characters)
+./products/migrations/0005_product_creation_date.py:17:80: E501 line too long (98 > 79 characters)
+./profiles/migrations/0001_initial.py:21:80: E501 line too long (117 > 79 characters)
+./profiles/migrations/0001_initial.py:22:80: E501 line too long (97 > 79 characters)
+./profiles/migrations/0001_initial.py:23:80: E501 line too long (111 > 79 characters)
+./profiles/migrations/0001_initial.py:24:80: E501 line too long (93 > 79 characters)
+./profiles/migrations/0001_initial.py:25:80: E501 line too long (97 > 79 characters)
+./profiles/migrations/0001_initial.py:26:80: E501 line too long (100 > 79 characters)
+./profiles/migrations/0001_initial.py:27:80: E501 line too long (100 > 79 characters)
+./profiles/migrations/0001_initial.py:28:80: E501 line too long (91 > 79 characters)
+./profiles/migrations/0001_initial.py:29:80: E501 line too long (121 > 79 characters)
+gitpod /workspace/book-club (main) $
+```
 
 
 ## Deployment 
