@@ -5,7 +5,7 @@ html {
 body {
     background: url('/media/bookclub.webp') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: calc(100vh - 164px - 24px);
     color:slategray;
     font-family: Moderustic, sans-serif;
 }
@@ -144,6 +144,12 @@ a.category-badge > span.badge:hover {
 
 .toast-capper {
     height: 2px;
+}
+
+.socials {
+    background: white;
+    height: 24px;
+    padding-left: 10px;
 }
 
 input[name='q']::placeholder {
