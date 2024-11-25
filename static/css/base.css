@@ -152,6 +152,11 @@ a.category-badge > span.badge:hover {
     padding-left: 10px;
 }
 
+.dropdown-menu {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
 input[name='q']::placeholder {
     color: #aab7c4;
 }
