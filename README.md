@@ -1,16 +1,49 @@
 # Coder's Cafe 
-This is a fullstack project written in Python using the Django framework on the backend, connecting to a PostgreSQL database. Using the bootstrap framework on the frontend within HTML and CSS
+This is a fullstack project written in Python using the Django framework on the backend, connecting to a PostgreSQL database. Using the bootstrap framework on the frontend within HTML and CSS.
+
+The aim of this project was to create a mockup for an E-Commerce B2C platform whereby customers can buy books at a competitive price. As a B2C application it allows the consumers to purchase the products directly from the business.
+
+The aim when it comes to creating B2C applications is to make the process as user friendly as possible to enhance the shopping experience and make sales quickly. On the business' side of things, it must be easy to keep track of stock levels, which books are best-sellers and which books are not selling well, to tailor the site to what customers want and what will make the most money. Having a manageable database system will make stock keeping a much more simple experience, and allow the business to create new deals to try to entice customers to buy more products. It is essential that the site is quick and easy to navigate with features that speed up the transaction process for consumers (e.g being able to save card and address details for future purchases).
+
+The basic wireframe I made for the design and layout of the homepage is as follows: 
+
+![image](readme-images/image-11.png)
 
 ## Important notes 
 The admin superuser is as follows, username: `admin123` & password is: `a3e5n7`.
 
 In order to test the functions of the checkout page and all its features, new users can be created in the account page.
 
-There is an issue with a large number of images, see the Bugs section of this readme for more information.
+## Database Model
+
+Excluding the default "profiles" model. There are 2 separate entity relation diagrams for this application which have no links beteween the two of them, one for products and checkouts
+
+![image](readme-images/erd_products_order.png)
+
+And the other is for the newsletter.
+
+![image](readme-images/erd_newsletter.png)
+
+Note that in a future iteration of this application, I would improve the newsletter functionality, at present it is a fairly simple process email that is sent out by an admin user that only has a subject and a text body. I could allow for HTML inputs (potentially with a default design) to allow for a more customised and good looking email, along with the ability to add images or links or coupons for certain books. However for now it is still a good way for the staff to keep in touch with customers, tell them about the latest books and any news updates regarding the store.
+
+## Security features
+
+A significant number of the views added have some form of validation to ensure that they can only be called by the required users, so even if a bad actor knows the correct URL for certain actions, they will be met with an error and redirected to another page. Some examples of this are:
+- When adding, editing, or deleting a product, before anything else the views will check if the current user is a superuser, if they are not, then they are redirected back home.
+- When sending out a newsletter to all users, the same superuser check is done
+- When viewing all newsletters, if the user is a superuser, then the data is enriched with the email addresses of each person sent that newsletter, if they are not a superuser, then they can only see the newsletters themselves
+
+Aside from just user checks, each form has a check on the data to to ensure that it is in a valid state. Notable inclusions are
+- Type checks, e.g. numbers fields do not accept letters
+- Dates are valid
+- Email addresses are valid
+- When subscribing to a newsletter, the provided email address cannot already be subscribed, and conversely when unsubscribing, that email address does need to already be subscribed
+- On checkout, the stripe payment must succeed before order records are created and success email is sent
+- Checkout cannot be called on an empty bag 
 
 ## Testing
 
-See below for a brief synposis of my testing flow, for a more in-depth look, visit https://github.com/users/Nicolemann98/projects/2 and check the comments on each ticket in the Done column, here it is broken down by feature rather than the overall look below.
+See below for a brief synposis of my testing flow, for a more in-depth look, visit https://github.com/users/Nicolemann98/projects/2 and check the comments on each ticket in the Done column, here it is broken down by feature rather than the overall look below. This also shows the desired User Stories for this project.
 
 Initally I tested to ensure that the homepage would be responsive over desktop, tablet and mobile screens
 Responsive home screen on mobile:
@@ -57,7 +90,11 @@ There was an issue with very slow loading speeds for the products, this is due t
 
 Webhooks were receiving a 401 error, the cause was that the link was not public, so I made the URL public to resolve this.
 
-There is an ongoing issue with not all of the images showing correctly. This is because the data set I chose is very large and I hit the upload data limit for the free AWS plan, if this was a real application then I would simply pay the AWS cost from the company expense account and allow the upload to finish, however because this is for educational purposes and I am not running a real company, I decided to stop the upload just as the free amount ran out and save myself the cost. Even though a lot of them are missing, the examiner will be able to see that a lot of them are present which proves that I have the knowledge of how to do this, just not the money, as a side-note, the upload seemed to run in reverse alphabetical order by categories so to see the desired images, filter by categories later in the alphabet.
+There was an ongoing issue with not all of the images showing correctly. This was because the data set I chose is very large and I hit the upload data limit for the free AWS plan, if this was a real application then I would simply pay the AWS cost from the company expense account and allow the upload to finish, as a side-note, the upload seemed to run in reverse alphabetical order by categories so to see the desired images, filter by categories later in the alphabet.
+
+There was a bug whereby user registration returned a 500 server error, this used to work, however as part of the flake validation tool I had to shorten certain lines. This includes the AUTH_PASSWORD_VALIDATORS in settings.py file, however I used `\` to concatinate different lines. This does not actually work within strings. I did not thoroughly test the application again after changes to make the validations pass as I assumed I made no funcitonal changes to the code. I have now fixed this now and i'm using `+` to concatinate the strings on separate lines.
+
+There was also a bug where on checkout, orders are duplicated and stored with 0.00 price values. This was caused by a misunderstanding on how to use Django signals. After reading the documentation again, I found I was missing 2 lines in the CheckoutConfig class which imported the signals I created. This has now been added again.
 
 ## Validators
 
@@ -152,7 +189,7 @@ This project was deployed onto Heroku, the link for which is: https://nicole-man
 
 ## Struggles
 
-This was a very challenging project, as it combined a range of new techniques that were unfamiliar to me, I made a number of minor errors throughout that impacted the output and produced error messages
+This was a very challenging project, as it combined a range of new techniques that were unfamiliar to me, I made a number of minor errors throughout that impacted the output and produced error messages. There was an issue whereby the site was missing a number of product photos due to the AWS upload hitting its free cap limit, however this has since been rectified.
 
 
 
